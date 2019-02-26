@@ -10,7 +10,7 @@ def batch_badge_creator(array)
   badge_messages
 end
 
-def conference_badges(speakers)
+def assign_rooms(speakers)
   rooms = [1,2,3,4,5,6,7]
   room_assignments = []
   index = 0
