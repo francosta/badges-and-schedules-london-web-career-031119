@@ -16,7 +16,7 @@ def assign_rooms(speakers)
 end
 end
 
-def printer
+def printer(speakers)
   badge_messages
   assign_rooms(speakers).each do |room|
     puts room
