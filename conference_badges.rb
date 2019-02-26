@@ -17,6 +17,6 @@ end
 end
 
 def printer
-  badge_messages
-  assign_rooms
+  puts badge_messages
+  puts assign_rooms
 end
