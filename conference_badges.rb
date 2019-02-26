@@ -21,3 +21,8 @@ def assign_rooms(speakers)
   end
   room_assignments
 end
+
+def assign_rooms(speakers)
+  speakers.each_with_index.do |speaker, index|
+    "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
+end
