@@ -17,6 +17,8 @@ end
 end
 
 def printer
-  puts badge_messages
-  puts assign_rooms
+  badge_messages
+  assign_rooms(speakers).each do |room|
+    puts room
+  end
 end
