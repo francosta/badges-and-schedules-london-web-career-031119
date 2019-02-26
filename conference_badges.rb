@@ -15,9 +15,9 @@ def conference_badges(speakers)
   room_assignments = []
   index = 0
   while index < rooms.length - 1
-
-
-
-  "Hello, #{i}! You'll be assigned to room "
-
+    speaker = speakers[index]
+    room = rooms[index]
+    room_assignments.push("Hello, #{speaker}! You'll be assigned to room #{room}")
+  end
+  room_assignments
 end
