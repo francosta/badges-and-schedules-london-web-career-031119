@@ -1,1 +1,11 @@
-# Write your code here.
+def badge_maker(name)
+  "Hello, my name is #{name}."
+end
+
+def batch_badge_creator(array)
+  badge_messages = []
+  for i in array do
+    badge_messages.push("Hello, my name is #{i}.")
+  end
+  badge_messages
+end
